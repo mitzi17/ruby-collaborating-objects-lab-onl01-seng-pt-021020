@@ -6,7 +6,11 @@ class Song
   
   def initialize
     @name = name
+    save
   end
+  
+  def save
+    
   
   def self.all
     @@all
